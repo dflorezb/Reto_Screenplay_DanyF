@@ -2,11 +2,8 @@ package com.co.choucair.stepdefinitions;
 
 import com.co.choucair.models.UserLoombokData;
 import com.co.choucair.questions.ValidateText;
-import com.co.choucair.tasks.AddProductToCart;
-import com.co.choucair.tasks.SelectProduct;
-import com.co.choucair.tasks.SaucedemoLoginSteps;
+import com.co.choucair.tasks.*;
 
-import com.co.choucair.tasks.ViewCart;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 import net.serenitybdd.screenplay.actions.Open;
