@@ -6,9 +6,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/saucedemoLogin.feature",
+        features = "src/test/resources/features",
         glue = "com.co.choucair.stepdefinitions",
+        tags = "",
         snippets = CucumberOptions.SnippetType.CAMELCASE
+
 )
 public class SaucedemoLoginRunner {
 }
